@@ -635,6 +635,9 @@
     header {
       padding: 10px 30px;
     }
+    body {
+      padding-left: 100px;
+    }
     .Trial h1 {
       font-size: medium;
     }
