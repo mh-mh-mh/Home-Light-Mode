@@ -29,23 +29,16 @@
     background-color: #98A6C7;
   }
 
-  .Rectangle {
-    align-items: center;
-    opacity: 50%;
-    display: flex;
-    justify-content: center;
-  }
-
-
   body {
+    max-width: 100vw;
     font-family: 'Sora', sans-serif;
     background-color: #F4F7FF;
   }
 
+
   /*Landing template section*/
 
   .Landing {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,13 +102,7 @@
     padding-bottom: 96px;
   }
 
-  .Rectangle529 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
- 
   /*Features section*/
 
   .FFeatures {
@@ -373,7 +360,7 @@
     flex-wrap: wrap;
     gap: 20px;
     border-radius: 24px;
-    width: 845px;
+    width: 70%;
     height: 328px;
     background-color: #0059F7;
     font-family: 'Sora', sans-serif;
@@ -555,7 +542,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 90px;
-    width: 1060px;
+    width: 80%;
     height: 176px;
     border-radius: 24px;
     background-color: #0059F7;
@@ -631,17 +618,146 @@
     }
   }
 
-  @media screen and (max-width: 470px) {
+   @media screen and (max-width: 600px) {
     header {
       padding: 10px 30px;
     }
-    body {
-      padding-left: 100px;
+    .FreeTrial h1 {
+      font-size: 16px;
     }
     .Trial h1 {
       font-size: medium;
+   }
+
+  @media screen and (max-width: 470px) {
+    .Landing {
+      gap: 0px;
     }
-    .FreeTrial1 h1 {
+    .Landing h1 {
+      font-size: 40px;
+      width: 300px;
+    }
+    .Landing p {
       font-size: medium;
+      width: 300px;
+    
+    }
+    .FreeTrial {
+      margin-top: 30px;
+    }
+    footer {
+      margin-top: 90px;
+    }
+    .Features {
+      margin: 50px;
+      width: 80%;
+    }
+    .Features h1 {
+      font-size: 32px;
+    }
+    .Features p {
+      font-size: medium;
+      width: 300px;
+    }
+    .Dashboard {
+      width: 80%;
+    }
+    .Dashboard p {
+      font-size: 12px;
+      width: 99%;
+    }
+    .Comment {
+      width: 80%;
+    }
+    .Comment p {
+      font-size: 12px;
+      width: 99%;
+    }
+    .Tailored {
+      width: 80%;
+    }
+    .Tailored p {
+      font-size: 12px;
+      width: 99%;
+    }
+    .Statistics {
+      width: 80%;
+    }
+    .Statistics p {
+      font-size: 12px;
+      width: 99%;
+    }
+    .Profiles {
+      width: 80%;
+    }
+    .Profiles p {
+      font-size: 12px;
+      width: 99%;
+    }
+    .Folders {
+      width: 80%;
+    }
+    .Folders p {
+      font-size: 12px;
+      width: 99%;
+    }
+    .SAFLOW h1 {
+      font-size: 25px;
+    }
+    .SAFLOW1 img {
+      width: 90%;
+    }
+    .saflow01 {
+      padding-left: 75px;
+    }
+    .saflow01 h1 {
+      font-size: 20px;
+    }
+    .saflow01 p {
+      font-size: 14px;
+      width: 75%;
+    }
+    .SAFLOW2 img {
+      width: 90%;
+    }
+    .saflow02 {
+      padding-left: 75px;
+    }
+    .saflow02 h1 {
+      font-size: 20px;
+    }
+    .saflow02 p {
+      font-size: 14px;
+      width: 75%;
+    }
+    .SAFLOW3 img {
+      width: 90%;
+    }
+    .saflow3 {
+      padding-left: 75px;
+    }
+    .saflow3 h1 {
+      font-size: 20px;
+    }
+    .saflow3 p {
+      font-size: 14px;
+      width: 75%;
+    }
+    .Pricings {
+      margin-top: 70px;
+    }
+    .Pricings p {
+      font-size: 16px;
+    }
+    .Pricings h1 {
+      font-size: 27px;
+    }
+    .Pricings1 img {
+      width: 90%;
+      height: 90%;
+    }
+    .FreeTrial {
+      display: block;
+      height: 250px;
     }
   }
